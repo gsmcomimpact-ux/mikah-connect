@@ -1,0 +1,6 @@
+{
+  "name": "NIKAH CONNECT – Rencontre Musulmane Sérieuse & Mariage",
+  "description": "Plateforme moderne de mise en relation islamique respectueuse, sécurisée et orientée vers le mariage basée sur les valeurs, la personnalité et les projets de vie.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

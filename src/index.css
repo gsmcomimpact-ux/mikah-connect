@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --color-forest: #0F5132;
+  --color-emerald: #198754;
+  --color-gold: #D4AF37;
+  --color-gold-light: #F4E8C1;
+  --color-ivory: #FAF9F6;
+  --color-surface: #F3F4F6;
+  --color-ink: #17201A;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  color: var(--color-ink);
+  background-color: var(--color-ivory);
+}
+
+h1, h2, .font-serif-brand {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Subtle Islamic geometric star lattice pattern */
+.bg-islamic-pattern {
+  background-color: #0F5132;
+  background-image: radial-gradient(rgba(212, 175, 55, 0.12) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.bg-islamic-light {
+  background-color: #FAF9F6;
+  background-image: radial-gradient(rgba(15, 81, 50, 0.05) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
